@@ -1,0 +1,35 @@
+body{
+  text-align: center;
+  font-family: sans-serif;
+  background-color: #F8F8F8;
+  color: #606060;
+}
+#divtit{
+  text-align: center;
+  font-family: sans-serif;
+}
+.divcon{
+  text-align: center;
+}
+#divlogo{
+  background-color: #383838;
+}
+img{
+  margin-right:90%;
+}
+.usuario{
+  text-align: right;
+  font-family: sans-serif;
+}
+table,tr,th,td{
+  border: 1px solid black;
+}
+.tablacen{
+    text-align:center;
+}
+.tablajus{
+    text-align:justify;
+}
+textarea{
+  resize: none;
+}

@@ -1,0 +1,67 @@
+PROCESO ORDENES DE COMPRA
+************************************	
+
+COMPRATN	*	explicacion
+************************************
+codoctn		*	codigo de la compra de telenet
+proveedor	*	nombre de proveedor de la tabla origenesp
+fecha		*	fecha de la orden
+medcom		*	medio de la compra
+neto		*	neto de la compra
+imp		*	porcentaje de impuesto
+total		*	total
+
+
+COMPRAPP	*	explicacion
+************************************
+codoctn		*	codigo de la compra de telenet
+codocpp		*	codido de orden compra solicitada
+cliente		*	cliente de la tabla origenesj
+
+
+DETCOMPRAPP	*	explicacion
+************************************
+codocpp		*	codido de orden compra solicitada
+despro		*	descripcion del producto
+parnum		*	parnumber
+idesol		*	ID solicitado
+neto		*	monto neto del costo
+homolo		*	homologado S o N
+
+
+PROCESO DE OFERTAS
+
+ofPRODUCTO	*	explicacion
+*************************************
+idpro		*
+nombre		*
+precio		*
+
+
+ofertas		*	explicacion
+*************************************
+idpro		*
+feciniof	*
+fecfinof	*
+oferta		*
+costo		*
+margen		*
+
+
+
+PROCESO REGISTRO DE SEGUIMIENTO DE COTIZACIONES
+
+cotizaciones	*	explicacion
+************************************
+coDATCOT	*
+codcot		*
+empresa		*
+nombre		*
+fono		*
+movil		*
+mail		*
+observa		*
+fechorcot	*
+
+
+
